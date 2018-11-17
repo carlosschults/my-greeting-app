@@ -1,6 +1,6 @@
 ﻿namespace MyGreetingApp.Business
 {
-    interface IGreetingService
+    public interface IGreetingService
     {
         string Greet(string userName);
     }
