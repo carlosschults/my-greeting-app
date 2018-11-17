@@ -1,6 +1,6 @@
-﻿using log4net;
+﻿using System.Reflection;
+using log4net;
 using static log4net.LogManager;
-using System.Reflection;
 
 namespace MyGreetingApp
 {
@@ -15,7 +15,7 @@ namespace MyGreetingApp
 
         public void Info(string message)
         {
-            log.Info(message); ;
+            log.Info(message);
         }
 
         public void Warning(string message)
