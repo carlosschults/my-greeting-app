@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using MyGreetingApp.Business;
 
 namespace MyGreetingApp
 {
@@ -10,6 +7,11 @@ namespace MyGreetingApp
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Please inform your name: ");
+            var name = Console.ReadLine();
+            var greetingService = new DefaultGreetingService(new SystemClock());
+            Console.WriteLine(greetingService.Greet(name));
+            Console.ReadLine();
         }
     }
 }
