@@ -44,9 +44,16 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SystemClock.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MyGreetingApp.Business\MyGreetingApp.Business.csproj">
+      <Project>{FC5B9343-6AEB-431C-8477-3B09F65E4C87}</Project>
+      <Name>MyGreetingApp.Business</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
