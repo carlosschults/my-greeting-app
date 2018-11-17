@@ -1,5 +1,6 @@
-﻿using System;
-using MyGreetingApp.Business;
+﻿using MyGreetingApp.Business;
+using Serilog;
+using System;
 
 namespace MyGreetingApp
 {
@@ -9,8 +10,18 @@ namespace MyGreetingApp
         {
             Console.WriteLine("Please inform your name: ");
             var name = Console.ReadLine();
-            var greetingService = new DefaultGreetingService(new SystemClock());
-            Console.WriteLine(greetingService.Greet(name));
+
+            using (var log = new LoggerConfiguration()
+            .WriteTo.File(@"serilog-example.log")
+            .CreateLogger())
+            {
+                var greetingService = new LoggingGreetingService(
+                    new DefaultGreetingService(new SystemClock()),
+                    new FileLogger(log));
+
+                Console.WriteLine(greetingService.Greet(name));
+            }
+
             Console.ReadLine();
         }
     }
