@@ -2,7 +2,7 @@
 
 namespace MyGreetingApp.Business
 {
-    interface IClock
+    public interface IClock
     {
         DateTimeOffset Now();
     }

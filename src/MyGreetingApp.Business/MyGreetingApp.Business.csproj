@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="DefaultGreetingService.cs" />
     <Compile Include="IClock.cs" />
     <Compile Include="IGreetingService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
