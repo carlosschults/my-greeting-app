@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyGreetingApp", "MyGreetingApp.csproj", "{C510C1EC-0745-4D27-977B-F53105DCA322}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyGreetingApp", "MyGreetingApp\MyGreetingApp.csproj", "{C510C1EC-0745-4D27-977B-F53105DCA322}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyGreetingApp.Business", "..\MyGreetingApp.Business\MyGreetingApp.Business.csproj", "{FC5B9343-6AEB-431C-8477-3B09F65E4C87}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyGreetingApp.Business", "MyGreetingApp.Business\MyGreetingApp.Business.csproj", "{FC5B9343-6AEB-431C-8477-3B09F65E4C87}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
