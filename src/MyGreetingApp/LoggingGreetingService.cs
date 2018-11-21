@@ -16,7 +16,7 @@ namespace MyGreetingApp
 
         public string Greet(string userName)
         {
-            logger.Info($"Atempting to greet user {userName}");
+            logger.Info($"Attempting to greet user {userName}");
             var result = innerService.Greet(userName);
             logger.Info($"Successfully generated greeting to user {userName}");
             return result;
