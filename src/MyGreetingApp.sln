@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyGreetingApp", "MyGreeting
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyGreetingApp.Business", "MyGreetingApp.Business\MyGreetingApp.Business.csproj", "{FC5B9343-6AEB-431C-8477-3B09F65E4C87}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyGreetingApp.Business.Test", "MyGreetingApp.Business.Test\MyGreetingApp.Business.Test.csproj", "{F5FD84F6-11DA-4D4C-A020-DD7F8A67D6D8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{FC5B9343-6AEB-431C-8477-3B09F65E4C87}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC5B9343-6AEB-431C-8477-3B09F65E4C87}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC5B9343-6AEB-431C-8477-3B09F65E4C87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5FD84F6-11DA-4D4C-A020-DD7F8A67D6D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5FD84F6-11DA-4D4C-A020-DD7F8A67D6D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5FD84F6-11DA-4D4C-A020-DD7F8A67D6D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5FD84F6-11DA-4D4C-A020-DD7F8A67D6D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
